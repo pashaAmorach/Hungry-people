@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hunger</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="hero">
+    <div class="container">
+      <header class="header">
+        <nav class="header__links">
+          <a href="#" class="header__links__link">home</a>
+          <a href="#about-us" class="header__links__link">about</a>
+          <a href="#our-team" class="header__links__link">team</a>
+          <a href="#book-table" class="header__links__link">booking</a>
+        </nav>
+
+        <a href="#" class="header__logo">
+          <img src="img/logo.svg" alt="Hunger_logo" class="header__logo__image">
+        </a>
+
+        <nav class="header__links">
+          <a href="#menu" class="header__links__link">menu</a>
+          <a href="#private-events" class="header__links__link">events</a>
+          <a href="#galerie" class="header__links__link">galerie</a>
+          <a href="#contact" class="header__links__link">contact</a>
+        </nav>
+      </header>
+
+      <ul class="hero__content">
+        <li class="hero__content__item">
+          <p class="hero__content__workhours">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
+        </li>
+
+        <li class="hero__content__item">
+
+          <div class="hero__content__title-block">
+            <h5 class="hero__content__title-block__text">restaurant</h5>
+            <h1 class="hero__content__title-block__title">hungry people</h1>
+          </div>
+
+          <div class="hero__content__buttons">
+            <button class="hero__content__buttons__btn">book table</button>
+            <button class="hero__content__buttons__btn">explore</button>
+          </div>
+
+          <a href="#about-us" class="hero__content__link">
+            <img src="img/arrow-down.svg" alt="scrollDown" class="hero__content__link__icon">
+          </a>
+        </li>
+
+        <li class="hero__content__item">
+          <nav class="hero__content__media">
+            <a href="https://www.facebook.com" class="hero__content__media__link">
+              <img src="img/facebook.svg" alt="" class="hero__content__media__link__icon">
+            </a>
+            <a href="https://twitter.com" class="hero__content__media__link">
+              <img src="img/twitter.svg" alt="" class="hero__content__media__link__icon">
+            </a>
+            <a href="https://www.instagram.com" class="hero__content__media__link">
+              <img src="img/instagram.svg" alt="" class="hero__content__media__link__icon">
+            </a>
+          </nav>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section about-us" id="about-us">
+    <div class="container">
+      <ul class="section__list about-us__list">
+        <li class="section__list__item">
+          <h2 class="section__first-title">about us</h2>
+          <h5 class="section__second-title">Lotrem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h5>
+          <p class="section__dsc">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+        </li>
+        <li class="section__list__item">
+          <img src="img/aboutus.png" alt="about-us" class="about-us__list__img">
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section our-team" id="our-team">
+    <div class="container">
+      <h2 class="section__title">our team</h2>
+      <ul class="section__list our-team__list">
+        <li class="section__list__item">
+          <img src="img/masterchef.png" alt="our-team" class="our-team__list__img">
+        </li>
+        <li class="section__list__item">
+          <h2 class="section__first-title">master chef</h2>
+          <h5 class="section__second-title">Lotrem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h5>
+          <p class="section__dsc">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section book-table" id="book-table">
+    <div class="container">
+      <ul class="section__list book-table__list">
+        <li class="section__list__item">
+          <h2 class="section__first-title">book a table</h2>
+          <form action="#" method="POST" class="section__form">
+            <input type="text" class="section__form__input" placeholder="Name">
+            <input type="email" class="section__form__input" placeholder="Email">
+            <input type="tel" class="section__form__input" placeholder="Phone">
+            <select name="persone-count" class="section__form__select">
+              <option value="1persone" class="section__form__select__option" disabled selected>People</option>
+              <option value="2persone" class="section__form__select__option">1</option>
+              <option value="3persone" class="section__form__select__option">2</option>
+              <option value="4persone" class="section__form__select__option">3</option>
+              <option value="4persone" class="section__form__select__option">4</option>
+            </select>
+            <input type="text" class="section__form__input" placeholder="Date mm/dd" onfocus="(this.type='date')">
+            <input type="text" class="section__form__input" placeholder="Time" onfocus="(this.type='time')">
+            <button class="section__form__button">book now</button>
+          </form>
+        </li>
+        <li class="section__list__item">
+          <img src="img/book-table.png" alt="book-table" class="book-table__list__img">
+        </li>
+      </ul>
+      <p class="section__description">Mon - Fri: <span class="section__description--bold">8PM - 10PM</span>, Sat - Sun: <span class="section__description--bold">8PM - 3AM</span>, Phone: <span class="section__description--bold">+40 729 131 637/+40 726 458 782</span></p>
+    </div>
+  </section>
+
+  <section class="section specialites">
+    <div class="container">
+      <h2 class="section__title">specialites</h2>
+      <div class="spec__slider">
+        <div class="spec__slider__item">
+          <ul class="section__list specialites__list">
+            <li class="section__list__item">
+              <img src="img/specialities.png" alt="specialities" class="specialities__list__img">
+            </li>
+            <li class="section__list__item">
+              <h2 class="section__first-title">chocolate pancakes</h2>
+              <h5 class="section__second-title">Lotrem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h5>
+              <p class="section__dsc">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="spec__slider__item">
+          <ul class="section__list specialites__list">
+            <li class="section__list__item">
+              <img src="img/specialities.png" alt="specialities" class="specialities__list__img">
+            </li>
+            <li class="section__list__item">
+              <h2 class="section__first-title">chocolate pancakes</h2>
+              <h5 class="section__second-title">Lotrem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h5>
+              <p class="section__dsc">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="spec__slider__item">
+          <ul class="section__list specialites__list">
+            <li class="section__list__item">
+              <img src="img/specialities.png" alt="specialities" class="specialities__list__img">
+            </li>
+            <li class="section__list__item">
+              <h2 class="section__first-title">HOCHU STAFFA</h2>
+              <h5 class="section__second-title">Lotrem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h5>
+              <p class="section__dsc">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section> 
+
+  <section class="section menu" id="menu">
+    <div class="container">
+      <div class="section__single-title">
+        <h2 class="section__first-title">delicious menu</h2>
+        <h5 class="section__second-title">Lotrem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h5>
+      </div>
+      <ul class="menu__filter-list">
+        <li class="menu__filter-list__item">soupe</li>
+        <li class="menu__filter-list__item">pizza</li>
+        <li class="menu__filter-list__item">pasta</li>
+        <li class="menu__filter-list__item">desert</li>
+        <li class="menu__filter-list__item">wine</li>
+        <li class="menu__filter-list__item">beer</li>
+        <li class="menu__filter-list__item">drinks</li>
+      </ul>
+      <ul class="menu__list">
+        <li class="menu__list__item">
+          <div class="menu__list__dish">
+            <h3 class="menu__list__dish__title">
+              pizza quatro stagioni ....
+            </h3>
+            <span class="menu__list__dish__dsc">
+              Integer ullamcorper neque eu purus euismod
+            </span>
+          </div>
+          <p class="menu__list__price">55,68 usd</p>
+        </li>
+
+        <li class="menu__list__item">
+          <div class="menu__list__dish">
+            <h3 class="menu__list__dish__title">
+              pizza quatro stagioni ....
+            </h3>
+            <span class="menu__list__dish__dsc">
+              Integer ullamcorper neque eu purus euismod
+            </span>
+          </div>
+          <p class="menu__list__price">55,68 usd</p>
+        </li>
+
+        <li class="menu__list__item">
+          <div class="menu__list__dish">
+            <h3 class="menu__list__dish__title">
+              pizza quatro stagioni ....
+            </h3>
+            <span class="menu__list__dish__dsc">
+              Integer ullamcorper neque eu purus euismod
+            </span>
+          </div>
+          <p class="menu__list__price">55,68 usd</p>
+        </li>
+        <li class="menu__list__item">
+          <div class="menu__list__dish">
+            <h3 class="menu__list__dish__title">
+              pizza quatro stagioni ....
+            </h3>
+            <span class="menu__list__dish__dsc">
+              Integer ullamcorper neque eu purus euismod
+            </span>
+          </div>
+          <p class="menu__list__price">55,68 usd</p>
+        </li>
+        <li class="menu__list__item">
+          <div class="menu__list__dish">
+            <h3 class="menu__list__dish__title">
+              pizza quatro stagioni ....
+            </h3>
+            <span class="menu__list__dish__dsc">
+              Integer ullamcorper neque eu purus euismod
+            </span>
+          </div>
+          <p class="menu__list__price">55,68 usd</p>
+        </li>
+        <li class="menu__list__item">
+          <div class="menu__list__dish">
+            <h3 class="menu__list__dish__title">
+              pizza quatro stagioni ....
+            </h3>
+            <span class="menu__list__dish__dsc">
+              Integer ullamcorper neque eu purus euismod
+            </span>
+          </div>
+          <p class="menu__list__price">55,68 usd</p>
+        </li>
+        <li class="menu__list__item">
+          <div class="menu__list__dish">
+            <h3 class="menu__list__dish__title">
+              pizza quatro stagioni ....
+            </h3>
+            <span class="menu__list__dish__dsc">
+              Integer ullamcorper neque eu purus euismod
+            </span>
+          </div>
+          <p class="menu__list__price">55,68 usd</p>
+        </li>
+        <li class="menu__list__item">
+          <div class="menu__list__dish">
+            <h3 class="menu__list__dish__title">
+              pizza quatro stagioni ....
+            </h3>
+            <span class="menu__list__dish__dsc">
+              Integer ullamcorper neque eu purus euismod
+            </span>
+          </div>
+          <p class="menu__list__price">55,68 usd</p>
+        </li>
+        <li class="menu__list__item">
+          <div class="menu__list__dish">
+            <h3 class="menu__list__dish__title">
+              pizza quatro stagioni ....
+            </h3>
+            <span class="menu__list__dish__dsc">
+              Integer ullamcorper neque eu purus euismod
+            </span>
+          </div>
+          <p class="menu__list__price">55,68 usd</p>
+        </li>
+        <li class="menu__list__item">
+          <div class="menu__list__dish">
+            <h3 class="menu__list__dish__title">
+              pizza quatro stagioni ....
+            </h3>
+            <span class="menu__list__dish__dsc">
+              Integer ullamcorper neque eu purus euismod
+            </span>
+          </div>
+          <p class="menu__list__price">55,68 usd</p>
+        </li>
+        <li class="menu__list__item">
+          <div class="menu__list__dish">
+            <h3 class="menu__list__dish__title">
+              pizza quatro stagioni ....
+            </h3>
+            <span class="menu__list__dish__dsc">
+              Integer ullamcorper neque eu purus euismod
+            </span>
+          </div>
+          <p class="menu__list__price">55,68 usd</p>
+        </li>
+        <li class="menu__list__item">
+          <div class="menu__list__dish">
+            <h3 class="menu__list__dish__title">
+              pizza quatro stagioni ....
+            </h3>
+            <span class="menu__list__dish__dsc">
+              Integer ullamcorper neque eu purus euismod
+            </span>
+          </div>
+          <p class="menu__list__price">55,68 usd</p>
+        </li>
+        <li class="menu__list__item">
+          <div class="menu__list__dish">
+            <h3 class="menu__list__dish__title">
+              pizza quatro stagioni ....
+            </h3>
+            <span class="menu__list__dish__dsc">
+              Integer ullamcorper neque eu purus euismod
+            </span>
+          </div>
+          <p class="menu__list__price">55,68 usd</p>
+        </li>
+        <li class="menu__list__item">
+          <div class="menu__list__dish">
+            <h3 class="menu__list__dish__title">
+              pizza quatro stagioni ....
+            </h3>
+            <span class="menu__list__dish__dsc">
+              Integer ullamcorper neque eu purus euismod
+            </span>
+          </div>
+          <p class="menu__list__price">55,68 usd</p>
+        </li>
+        <li class="menu__list__item">
+          <div class="menu__list__dish">
+            <h3 class="menu__list__dish__title">
+              pizza quatro stagioni ....
+            </h3>
+            <span class="menu__list__dish__dsc">
+              Integer ullamcorper neque eu purus euismod
+            </span>
+          </div>
+          <p class="menu__list__price">55,68 usd</p>
+        </li>
+        <li class="menu__list__item">
+          <div class="menu__list__dish">
+            <h3 class="menu__list__dish__title">
+              pizza quatro stagioni ....
+            </h3>
+            <span class="menu__list__dish__dsc">
+              Integer ullamcorper neque eu purus euismod
+            </span>
+          </div>
+          <p class="menu__list__price">55,68 usd</p>
+        </li>
+        <li class="menu__list__item">
+          <div class="menu__list__dish">
+            <h3 class="menu__list__dish__title">
+              pizza quatro stagioni ....
+            </h3>
+            <span class="menu__list__dish__dsc">
+              Integer ullamcorper neque eu purus euismod
+            </span>
+          </div>
+          <p class="menu__list__price">55,68 usd</p>
+        </li>
+        <li class="menu__list__item">
+          <div class="menu__list__dish">
+            <h3 class="menu__list__dish__title">
+              pizza quatro stagioni ....
+            </h3>
+            <span class="menu__list__dish__dsc">
+              Integer ullamcorper neque eu purus euismod
+            </span>
+          </div>
+          <p class="menu__list__price">55,68 usd</p>
+        </li>
+        <li class="menu__list__item">
+          <div class="menu__list__dish">
+            <h3 class="menu__list__dish__title">
+              pizza quatro stagioni ....
+            </h3>
+            <span class="menu__list__dish__dsc">
+              Integer ullamcorper neque eu purus euismod
+            </span>
+          </div>
+          <p class="menu__list__price">55,68 usd</p>
+        </li>
+        <li class="menu__list__item">
+          <div class="menu__list__dish">
+            <h3 class="menu__list__dish__title">
+              pizza quatro stagioni ....
+            </h3>
+            <span class="menu__list__dish__dsc">
+              Integer ullamcorper neque eu purus euismod
+            </span>
+          </div>
+          <p class="menu__list__price">55,68 usd</p>
+        </li>
+        <li class="menu__list__item">
+          <div class="menu__list__dish">
+            <h3 class="menu__list__dish__title">
+              pizza quatro stagioni ....
+            </h3>
+            <span class="menu__list__dish__dsc">
+              Integer ullamcorper neque eu purus euismod
+            </span>
+          </div>
+          <p class="menu__list__price">55,68 usd</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section private-events" id="private-events">
+    <div class="container">
+      <h2 class="section__title private-events__title">private events</h2>
+      <ul class="section__list">
+        <li class="section__list__item">
+          <img src="img/weddings-privateevents.png" alt="">
+        </li>
+        <li class="section__list__item">
+          <img src="img/corporate-privateevents.png" alt="">
+        </li>
+      </ul>
+      <p class="section__description private-events__description">Mon - Fri: <span class="section__description--bold">8PM - 10PM</span>, Sat - Sun: <span class="section__description--bold">8PM - 3AM</span>, Phone: <span class="section__description--bold">+40 729 131 637/+40 726 458 782</span></p>
+    </div>
+  </section>
+
+  <section class="section galerie" id="galerie">
+      <ul class="section__list">
+        <li class="section__list__item galerie__list__item">
+          <img src="img/gal-mazzo.jpg" alt="">
+        </li>
+        <li class="section__list__item galerie__list__item">
+          <img src="img/gal-campfire.jpg" alt="">
+        </li>
+        <li class="section__list__item galerie__list__item">
+          <img src="img/gal-inside1.jpg" alt="">
+        </li>
+        <li class="section__list__item galerie__list__item">
+          <img src="img/gal-inside2.jpg" alt="">
+        </li>
+      </ul>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="container">
+      <ul class="section__list contact__list">
+        <li class="section__list__item section__single-title">
+            <h2 class="section__first-title">contact</h2>
+            <h5 class="section__second-title">Lotrem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h5>
+        </li>
+        <li class="section__list__item contact__form__item">
+          <form action="POST" class="section__form">
+            <input type="text" class="section__form__input contact__form__input" placeholder="Name">
+            <input type="email" class="section__form__input contact__form__input" placeholder="Email">
+            <input type="tel" class="section__form__input contact__form__input" placeholder="Phone">
+            <textarea class="section__form__textarea contact__form__textarea" placeholder="Message"></textarea>
+            <div class="contact__form__footer">
+              <ul class="contact__form__footer__list">
+                <li class="contact__form__footer__list__item">
+                  <img src="img/form-location.svg" alt="" class="contact__form__footer__list__icon">
+                  <a href="https://yandex.ru/maps/-/CCUUeWrv~C" class="contact__form__footer__list__text">5th London Boulevard, U.K.</a>
+                </li>
+                <li class="contact__form__footer__list__item">
+                  <img src="img/form-phone.svg" alt="" class="contact__form__footer__list__icon">
+                  <a href="tel:+40726458782" class="contact__form__footer__list__text">+40 729 131 637/+40 726 458 782</a>
+                </li>
+                <li class="contact__form__footer__list__item">
+                  <img src="img/form-mail.svg" alt="" class="contact__form__footer__list__icon">
+                  <a href="https://e.mail.ru/compose/?to=office@mindblister.com" class="contact__form__footer__list__text">office@mindblister.com</a>
+                </li>
+              </ul>
+              <button class="section__form__button contact__form__button">send message</button>
+            </div>
+          </form>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="map">
+    <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/boulevard/212610096088/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Boulevard</a><a href="https://yandex.ru/maps/10393/london/category/short_term_housing_rental/197061821387/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Жильё посуточно в Лондоне</a><a href="https://yandex.ru/maps/10393/london/category/hotel/184106414/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:28px;">Гостиница в Лондоне</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUUmYf6dD" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+  </div>
+
+  <footer class="footer">
+    <small class="footer__copyright">&copy; Copyright <span class="footer__copyright--bold">Mindblister</span> 2019</small>
+  </footer>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

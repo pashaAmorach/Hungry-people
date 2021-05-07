@@ -1,0 +1,29 @@
+.header {
+  position: relative;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    &__link {
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 18px;
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+  &__logo {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

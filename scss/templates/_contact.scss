@@ -1,0 +1,46 @@
+.contact {
+    &__list {
+        flex-direction: column;
+        align-items: center;
+    }
+    &__form {
+        &__input {
+            width: 32% !important;
+        }
+        &__item {
+            width: 100%;
+            max-width: 100%;
+        }
+        &__textarea {
+            width: 100%;
+            min-height: 120px;
+            margin-bottom: 10px;
+        }
+        &__button {
+            width: 47%;
+        }
+        &__footer {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            &__list {
+                display: flex;
+                width: 50%;
+                list-style: none;
+                justify-content: space-between;
+                &__item {
+                    display: flex;
+                    align-items: center;
+                }
+                &__text {
+                    margin-left: 3px;
+                    font-weight: 700;
+                    font-size: 10px;
+                    line-height: 12px;
+                    color: rgba($color: #333, $alpha: 0.5);
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

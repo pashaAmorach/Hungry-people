@@ -1,0 +1,9 @@
+.private-events {
+  background-image: url(../img/private-eventsbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__title,
+  &__description {
+    color: #fff;
+  }
+}
